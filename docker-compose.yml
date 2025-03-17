@@ -2,4 +2,4 @@ services:
   locator:
       build: .
       ports:
-        - "10080:80"
+        - "10080:4200"

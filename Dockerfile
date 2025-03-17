@@ -8,6 +8,9 @@ RUN npm install
 
 COPY . .
 
+CMD ["ng", "serve"]
+
+
 # RUN npm run build --configuration=production
 
 # FROM nginx
