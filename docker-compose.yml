@@ -1,0 +1,5 @@
+services:
+  locator:
+      build: .
+      ports:
+        - "10080:80"
